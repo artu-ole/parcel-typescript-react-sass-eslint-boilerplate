@@ -34,6 +34,7 @@ module.exports = {
     react: { version: 'detect' }
   },
   rules: {
+    semi: [ 'error', 'always' ],
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"]
   },
